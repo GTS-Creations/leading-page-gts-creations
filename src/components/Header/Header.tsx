@@ -32,7 +32,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="fixed z-50 w-full bg-black py-4 flex justify-around items-center text-white">
+    <header className="fixed z-50 w-full bg-black py-4 px-8 lg:px-0 flex justify-between lg:justify-around items-center text-white">
       <div>
         <Image src={logo} alt="Logo GTS Creations" width={100} height={100} />
       </div>
