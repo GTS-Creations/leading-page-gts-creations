@@ -1,13 +1,13 @@
 import Image from "next/image";
-import imageabout from "../../../public/imageabout.png";
+import imageabout from "../../../public/imagestart.png";
 
 export default function Start() {
   return (
     <section
-      id="inicio"
+      id="start"
       className="flex flex-col items-center justify-center"
     >
-      <div className="py-40 px-8 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
+      <div className="pt-40 pb-32 px-8 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
         <div className="space-y-8">
           <h1 className="text-4xl md:text-5xl font-bold">
             Seu site. Sua história. Nosso compromisso.
@@ -26,7 +26,7 @@ export default function Start() {
           </div>
         </div>
 
-        <Image src={imageabout} alt="Ilustração" className="w-ful md:w-6/12 z-50" />
+        <Image src={imageabout} alt="Ilustração" className="w-ful md:w-6/12" />
       </div>
     </section>
   );
