@@ -1,0 +1,42 @@
+import Image from "next/image";
+import clecio from "../../../public/clecio.png";
+import gabriel from "../../../public/gabriel.jpg";
+
+export default function Team() {
+  return (
+    <section className="flex flex-col items-center justify-center">
+      <div className="px-8 pb-32 flex flex-col justify-center items-center gap-8 w-full md:gap-4 lg:max-w-[800px] xl:max-w-[1000px]">
+        <h2 className="text-4xl font-bold text-center">Nossa equipe</h2>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8">
+          <div className="text-center w-[300px]">
+            <Image
+              src={gabriel}
+              alt="Membro"
+              width={120}
+              height={120}
+              className="rounded-full mx-auto -mb-8"
+            />
+            <div className="bg-white/10 p-4 rounded-lg">
+              <h3 className="font-bold mt-4">Patrício Gabriel</h3>
+              <p className="text-sm text-gray-400">Desenvolvedor Back-End</p>
+            </div>
+          </div>
+
+          <div className="text-center w-[300px]">
+            <Image
+              src={clecio}
+              alt="Membro"
+              width={120}
+              height={120}
+              className="rounded-full mx-auto -mb-8"
+            />
+            <div className="bg-white/10 p-4 rounded-lg">
+              <h3 className="font-bold mt-4">Clécio Lira</h3>
+              <p className="text-sm text-gray-400">Desenvolvedor Front-End</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

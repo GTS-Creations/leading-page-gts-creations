@@ -25,7 +25,7 @@ const links = [
   },
   {
     id: 4,
-    url: "#contacts",
+    url: "#contact",
     name: "Contatos",
   },
 ];
