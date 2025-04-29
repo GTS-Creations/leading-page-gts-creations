@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="flex flex-col items-center justify-center bg-gradient-to-r from-neutral-950 via-black to-neutral-950 py-10"
+      className="flex flex-col items-center justify-center bg-gradient-to-r from-neutral-900 via-black to-neutral-900 py-10"
     >
       <div className="px-8 flex flex-col justify-center items-center gap-8 md:gap-4 lg:max-w-[800px] xl:max-w-[1000px]">
         <p className="text-gray-400 mb-2 tracking-widest uppercase text-sm">
