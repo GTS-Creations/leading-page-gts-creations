@@ -15,7 +15,7 @@ export default function Start() {
       <div className="pt-28 pb-32 px-8 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
         <div className="space-y-8" data-aos="zoom-in">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Seu site. Sua história. Nosso compromisso.
+            Seu site, sua história, nosso compromisso.
           </h1>
           <p className="text-gray-400">
             Cada site que criamos é pensado para contar sua história de forma

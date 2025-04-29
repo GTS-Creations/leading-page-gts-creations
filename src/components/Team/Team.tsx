@@ -28,7 +28,7 @@ export default function Team() {
             />
             <div className="bg-white/10 p-4 rounded-lg">
               <h3 className="font-bold mt-4">Patrício Gabriel</h3>
-              <p className="text-sm text-gray-400">Desenvolvedor Back-End</p>
+              <p className="text-sm text-gray-400">Engenheiro de Software</p>
               <em className="text-sm text-gray-400 text-">
                 "Performance e segurança que você não vê, mas sente."
               </em>
@@ -45,7 +45,7 @@ export default function Team() {
             />
             <div className="bg-white/10 p-4 rounded-lg">
               <h3 className="font-bold mt-4">Clécio Lira</h3>
-              <p className="text-sm text-gray-400">Desenvolvedor Front-End</p>
+              <p className="text-sm text-gray-400">Engenheiro de Software</p>
               <em className="text-sm text-gray-400">
                 "O que move seu projeto acontece nos bastidores."
               </em>

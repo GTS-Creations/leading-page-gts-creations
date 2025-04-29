@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import Image from "next/image";
 import imageabout from "../../../public/imageabout.png";
 import AOS from "aos";
@@ -23,7 +23,10 @@ export default function About() {
           data-aos="fade-up"
         />
 
-        <div className="max-w-lg space-y-6 text-right" data-aos="fade-up">
+        <div
+          className="max-w-lg space-y-6 text-center md:text-right"
+          data-aos="fade-up"
+        >
           <h2 className="text-4xl font-bold">Sobre nós</h2>
           <p className="text-gray-400">
             Na GTS Creations, acreditamos que cada marca tem uma história única

@@ -25,9 +25,9 @@ export default function Contact() {
           className="text-4xl font-bold mb-6 leading-tight"
           data-aos="fade-up"
         >
-          Conte Com A Gente
+          Conte com a gente
           <br />
-          Para Tirar Do Papel.
+          para tirar do papel.
         </h2>
 
         <p
