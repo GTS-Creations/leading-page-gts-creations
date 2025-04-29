@@ -2,7 +2,10 @@ import { FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="flex flex-col items-center justify-center bg-gradient-to-r from-neutral-950 via-black to-neutral-950 py-10">
+    <section
+      id="contact"
+      className="flex flex-col items-center justify-center bg-gradient-to-r from-neutral-950 via-black to-neutral-950 py-10"
+    >
       <div className="px-8 flex flex-col justify-center items-center gap-8 md:gap-4 lg:max-w-[800px] xl:max-w-[1000px]">
         <p className="text-gray-400 mb-2 tracking-widest uppercase text-sm">
           Tem uma ideia?
@@ -21,10 +24,10 @@ export default function Contact() {
 
         <div className="mb-8 space-y-2">
           <p>
-            <strong>Email:</strong> contato@gtscreations.com
+            <strong>Email:</strong> creationsgts@gmail.com
           </p>
           <p>
-            <strong>Telefone:</strong> (81) 99999-9999
+            <strong>Telefone:</strong> (87) 98834-3936
           </p>
           <p>
             <strong>Endereço:</strong> Arcoverde, PE - Brasil
@@ -33,28 +36,31 @@ export default function Contact() {
 
         <div className="flex gap-4 justify-center mb-10">
           <a
-            href="https://wa.me/seunumerowhatsapp"
+            href="https://wa.me/5587988343936"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Converse comigo pelo WhatsApp"
             className="text-green-400 hover:text-green-300"
           >
-            <FaWhatsapp size={40}/>
+            <FaWhatsapp size={40} />
           </a>
           <a
-            href="https://instagram.com/suaempresa"
+            href="https://www.instagram.com/gtscreationsofc"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Converse comigo pelo Instagram"
             className="text-pink-400 hover:text-pink-300"
           >
-            <FaInstagram size={40}/>
+            <FaInstagram size={40} />
           </a>
           <a
-            href="https://linkedin.com/in/suaempresa"
+            href="https://www.linkedin.com/company/gtscreations/"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Converse comigo pelo LinkedIn"
             className="text-blue-400 hover:text-blue-300"
           >
-            <FaLinkedin size={40}/>
+            <FaLinkedin size={40} />
           </a>
         </div>
       </div>
