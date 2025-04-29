@@ -1,16 +1,29 @@
+'use client'
 import Image from "next/image";
 import imageabout from "../../../public/imageabout.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
-    <section id="about" className="flex flex-col items-center justify-center pt-10">
+    <section
+      id="about"
+      className="flex flex-col items-center justify-center pt-10"
+    >
       <div className="px-8 pb-32 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
         <Image
           src={imageabout}
           alt="Ilustração"
           className="w-ful md:w-6/12"
+          data-aos="fade-up"
         />
-        <div className="max-w-lg space-y-6 text-right">
+
+        <div className="max-w-lg space-y-6 text-right" data-aos="fade-up">
           <h2 className="text-4xl font-bold">Sobre nós</h2>
           <p className="text-gray-400">
             Na GTS Creations, acreditamos que cada marca tem uma história única

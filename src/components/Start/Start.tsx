@@ -1,11 +1,19 @@
+"use client";
 import Image from "next/image";
 import imageabout from "../../../public/imagestart.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Start() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
   return (
     <section id="start" className="flex flex-col items-center justify-center">
       <div className="pt-28 pb-32 px-8 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
-        <div className="space-y-8">
+        <div className="space-y-8" data-aos="zoom-in">
           <h1 className="text-4xl md:text-5xl font-bold">
             Seu site. Sua história. Nosso compromisso.
           </h1>
@@ -32,7 +40,12 @@ export default function Start() {
           </div>
         </div>
 
-        <Image src={imageabout} alt="Ilustração" className="w-ful md:w-6/12" />
+        <Image
+          src={imageabout}
+          alt="Ilustração"
+          className="w-ful md:w-6/12"
+          data-aos="zoom-in"
+        />
       </div>
     </section>
   );

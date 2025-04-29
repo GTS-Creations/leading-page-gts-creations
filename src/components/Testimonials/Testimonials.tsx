@@ -9,11 +9,18 @@ import {
   CarouselItem,
 } from "@/components/ui/carousel";
 import { FaStar } from "react-icons/fa";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Testimonials() {
   const plugin = React.useRef(
     Autoplay({ delay: 3000, stopOnInteraction: false })
   );
+
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
 
   return (
     <section
@@ -21,13 +28,18 @@ export default function Testimonials() {
       className="flex flex-col items-center justify-center pt-20"
     >
       <div className="px-8 pb-32 flex flex-col justify-center items-center gap-8 w-full md:gap-4 lg:max-w-[800px] xl:max-w-[1000px]">
-        <h2 className="text-4xl font-bold text-center">Depoimentos</h2>
-        <p className="text-gray-400 text-center">
+        <h2 className="text-4xl font-bold text-center" data-aos="fade-up">
+          Depoimentos
+        </h2>
+        <p className="text-gray-400 text-center" data-aos="fade-up">
           A satisfação dos nossos clientes é a nossa maior conquista. Confira o
           que quem já confiou no nosso trabalho tem a dizer sobre a experiência
           de criar seus projetos digitais com a gente.
         </p>
-        <div className="flex items-center justify-center w-full">
+        <div
+          className="flex items-center justify-center w-full"
+          data-aos="zoom-in"
+        >
           <Carousel
             plugins={[plugin.current]}
             opts={{
@@ -50,7 +62,6 @@ export default function Testimonials() {
                                 key={index}
                                 className="w-5 h-5 text-gray-400"
                                 color="#e5e61a"
-                                
                               />
                             ))}
                           </div>
