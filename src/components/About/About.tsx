@@ -13,7 +13,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex flex-col items-center justify-center pt-10"
+      className="flex flex-col items-center justify-center pt-10 scroll-mt-10 lg:scroll-mt-28"
     >
       <div className="px-8 pb-32 flex flex-col justify-center items-center gap-8 md:gap-4 md:flex-row lg:max-w-[800px] xl:max-w-[1000px]">
         <Image

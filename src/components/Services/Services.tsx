@@ -16,7 +16,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="flex flex-col items-center justify-center pt-20"
+      className="flex flex-col items-center justify-center pt-20 lg:scroll-mt-20"
     >
       <div className="px-8 pb-32 flex flex-col justify-center items-center gap-8 md:gap-4 lg:max-w-[800px] xl:max-w-[1000px]">
         <h2 className="text-4xl font-bold text-center" data-aos="fade-up">
