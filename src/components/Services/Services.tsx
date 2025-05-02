@@ -23,7 +23,8 @@ export default function Services() {
           Nossos serviços
         </h2>
         <p className="text-center text-gray-400" data-aos="fade-up">
-          Soluções digitais pensadas para impulsionar seus resultados.
+          Soluções digitais pensadas para impulsionar seus resultados, com foco
+          total na experiência e nas necessidades do cliente.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
           {/* Repetir para cada serviço */}
@@ -38,7 +39,7 @@ export default function Services() {
                 className="w-full h-full object-cover rounded"
               />
             </div>
-            <h3 className="font-bold">Criação de Sites</h3>
+            <h3 className="font-bold">Criação de sistemas personalizados</h3>
           </div>
 
           <div
@@ -52,7 +53,7 @@ export default function Services() {
                 className="w-full h-full object-cover rounded"
               />
             </div>
-            <h3 className="font-bold">Lojas Virtuais</h3>
+            <h3 className="font-bold">Automação de processos</h3>
           </div>
 
           <div
@@ -66,7 +67,9 @@ export default function Services() {
                 className="w-full h-full object-cover rounded"
               />
             </div>
-            <h3 className="font-bold">Landing Pages</h3>
+            <h3 className="font-bold">
+              Desenvolvimento de landing pages e lojas virtuais
+            </h3>
           </div>
 
           <div
@@ -80,7 +83,7 @@ export default function Services() {
                 className="w-full h-full object-cover rounded"
               />
             </div>
-            <h3 className="font-bold">Manutenção e Suporte</h3>
+            <h3 className="font-bold">Suporte técnico e manutenção</h3>
           </div>
         </div>
       </div>

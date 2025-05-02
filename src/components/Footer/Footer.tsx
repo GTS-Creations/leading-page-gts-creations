@@ -16,7 +16,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer className="w-full bg-gradient-to-r from-neutral-900 via-black to-neutral-900 p-4 flex justify-center items-center text-white text-center">
+    <footer className="w-full bg-gradient-to-r from-neutral-800 via-black to-neutral-800 p-4 flex justify-center items-center text-white text-center">
       <p>
         Criado por <strong>GTS Creations &copy;</strong>, {data}, Todos os direitos
         reservados.
